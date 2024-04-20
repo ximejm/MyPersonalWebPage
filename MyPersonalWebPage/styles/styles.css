@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: khaki;
+
+}
+.box{ 
+    width:500px;
+    background-color:rgb(0, 223, 162);
+    margin:0 auto;
+    margin-top: 4%;
+    padding:20px;
+    color:rgb(234, 4, 126);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box-img{
+    border-radius:60%;
+    
+
+}
+.box h1 {
+     font-size: 40px;
+     letter-spacing: 5px;
+     font-weight: 100;
+     margin-bottom: 30px;
+
+}
+.box h2{
+    font-size: 20px;
+     letter-spacing: 3px;
+     font-weight: 100;
+     margin-bottom: 15px;
+}
+.box p{
+    text-align: justify;
+}
+
+.flex_container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    gap:20px;
+
+}
+.flex_container div{ 
+    width:auto;
+    height:auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 3px; 
+    color:rgb(234, 4, 126);
+    background-color:rgb(0, 223, 162);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+nav a{
+    text-decoration: none;
+    color:dodgerblue
+    padding: 10px; 
+    margin-right: 10px; 
+
+}
+
+.aboutme {
+    
+    color:rgb(0, 223, 162);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 30, 30, 30, 30; 
+    padding: 3px;
+
+}
+
+.education{
+    color:rgb(245, 141, 57););
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    background-color: bisque;
+    list-style:none;
+
+}
+
+.experience {
+    color:rgb(247, 57, 73);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    background-color:lightpink;
+    text-align:center;
+    padding:0 250px;
+
+}
+.slider-box{
+    width 120px;
+    height:auto;
+    margin:50px auto 0;
+
+}
+.slider-box ul{ 
+    display:flex;
+    padding:0;
+    width:400px;
+    animation: slide 20s infinite alternate ease-in-out;  
+}
+
+
+.slider-box img{
+    width:400px;
+    height: 350px;
+
+}
+@keyframes slide{
+    0%{margin-left: 0;} 
+    20%{margin-left:0}
+
+    25%{margin-left:-100%}
+    45%{margin-left:-100%}
+
+    50%{margin-left:-200%}
+    70%{margin-left:-200%}
+
+    75%{margin-left:-300%}
+    100%{margin-left:-300%}
+
+}
+.contact{ 
+    color:rgb(234, 4, 126);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    background-color:rgb(0, 223, 162);
+    list-style: none;
+    margin:30, 30, 30, 30;
+    padding:20px;
+
+
+}
+
+.contact ul li{
+    display: inline-block;
+}
+.contact ul {
+    list-style: none;
+    margin-top: 5%;
+}
+
+.contact ul li a{
+    color:rgb(234, 4, 126);
+    font-size: 100px;
+    padding: 10px 5 px;
+    display:block;
+    gap:50px;
+}
+
+
